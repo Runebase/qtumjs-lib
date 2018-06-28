@@ -1,24 +1,24 @@
 module.exports = {
     qtum: {
         messagePrefix: '\x15Qtum Signed Message:\n',
-        bech32: 'bc',
+        bech32: 'rune',
         bip32: {
-            public: 0x0488b21e,
-            private: 0x0488ade4
+            public: 0x0586c22e,
+            private: 0x0586dcf1
         },
-        pubKeyHash: 0x3a,
-        scriptHash: 0x32,
-        wif: 0x80
+        pubKeyHash: 0x3c,
+        scriptHash: 0x7b,
+        wif: 0xd8
     },
     qtum_testnet: {
         messagePrefix: '\x15Qtum Signed Message:\n',
-        bech32: 'tb',
+        bech32: 'trun',
         bip32: {
-            public: 0x043587cf,
-            private: 0x04358394
+            public: 0x053782bf,
+            private: 0x053784a4
         },
-        pubKeyHash: 0x78,
-        scriptHash: 0x6e,
-        wif: 0xef
+        pubKeyHash: 0x0b,
+        scriptHash: 0x6a,
+        wif: 0xe5
     }
 }
