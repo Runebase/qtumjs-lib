@@ -1,29 +1,29 @@
 {
-  "name": "qtumjs-lib",
+  "name": "runebasejs-lib",
   "version": "0.0.7",
-  "description": "An extend lib for bitcoinjs-lib, it supports two new network of qtum and qtum-testnet, and it can generate contract creating and sending transactions",
+  "description": "An extend lib for bitcoinjs-lib, it supports two new network of runebase and runebase-testnet, and it can generate contract creating and sending transactions",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qtumproject/qtumjs-lib.git"
+    "url": "git+https://github.com/runebase/runebasejs-lib.git"
   },
   "keywords": [
-    "qtum",
-    "qtumjs",
+    "runebase",
+    "runebasejs",
     "smart contract",
     "bitcoin"
   ],
-  "author": "Qtum Weiyu",
+  "author": "Runebase Weiyu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qtumproject/qtumjs-lib/issues"
+    "url": "https://github.com/runebase/runebasejs-lib/issues"
   },
-  "homepage": "https://github.com/qtumproject/qtumjs-lib#readme",
+  "homepage": "https://github.com/runebase/runebasejs-lib#readme",
   "devDependencies": {},
   "dependencies": {
     "bignumber.js": "^4.1.0",
     "bitcoinjs-lib": "^3.3.2",
-    "qtum-opcodes": "^1.0.0",
+    "runebase-opcodes": "^1.0.0",
     "safe-buffer": "^5.1.1"
   }
 }

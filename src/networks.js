@@ -1,6 +1,6 @@
 module.exports = {
-    qtum: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    runebase: {
+        messagePrefix: '\x15Runebase Signed Message:\n',
         bech32: 'rune',
         bip32: {
             public: 0x0586c22e,
@@ -10,8 +10,8 @@ module.exports = {
         scriptHash: 0x7b,
         wif: 0xd8
     },
-    qtum_testnet: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    runebase_testnet: {
+        messagePrefix: '\x15Runebase Signed Message:\n',
         bech32: 'trun',
         bip32: {
             public: 0x053782bf,

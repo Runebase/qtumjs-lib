@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var runebasejs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(runebasejs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+runebasejs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = runebasejs
