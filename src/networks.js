@@ -6,7 +6,7 @@ module.exports = {
             public: 0x0586c22e,
             private: 0x0586dcf1
         },
-        pubKeyHash: 0x3c,
+        pubKeyHash: 0x3d,
         scriptHash: 0x7b,
         wif: 0xd8
     },
